@@ -1,0 +1,43 @@
+{
+	"name": "Mining Hammer",
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [
+			"copper",
+			"tinbronze",
+			"bismuthbronze",
+			"blackbronze",
+			"iron"
+		]
+	},
+	"pattern": [
+		[
+			"_________",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"_________"
+		],
+		[
+			"_________",
+			"_________",
+			"_#######_",
+			"_#######_",
+			"_#######_",
+			"_#######_",
+			"_#######_",
+			"_________",
+			"_________"
+		]
+	],
+	"output": {
+		"type": "item",
+		"code": "mininghammerhead-{metal}"
+	}
+}

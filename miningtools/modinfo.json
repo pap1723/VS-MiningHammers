@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "miningtools",
+  "name": "Mining Tools",
+  "authors": ["Pap"],
+  "description": "This mod gives you new tools for mining and clearing out large areas. You can use the Excavator as a replacement to the shovel and clear out 3x3 areas of dirt, sand, or gravel. The Mining Hammers allow you to cut 3x3 tunnels through stone to quickly get the ores and rock you need.",
+  "version": "0.6.0",
+  "dependencies": {
+    "game": "1.16.4"
+  }
+}

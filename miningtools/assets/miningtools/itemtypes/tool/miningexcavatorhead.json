@@ -1,0 +1,104 @@
+{
+	"code": "miningexcavatorhead",
+	"variantgroups": [
+		{
+			"code": "metal",
+			"states": [
+				"copper",
+				"tinbronze",
+				"bismuthbronze",
+				"blackbronze",
+				"iron"
+			]
+		}
+	],
+	"shape": {
+		"base": "item/tool/miningexcavator"
+	},
+	"textures": {
+		"metal": {
+			"base": "game:block/metal/ingot/{metal}"
+		},
+		"wood": {
+			"base": "game:block/transparent"
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ],
+		"tools": [ "*" ]
+	},
+
+	"guiTransform": {
+		"translation": {
+			"x": -11,
+			"y": 3,
+			"z": 0
+		},
+		"rotation": {
+			"x": 32,
+			"y": 59,
+			"z": 60
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 1.44
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.2,
+			"y": 0.3,
+			"z": 2.6
+		},
+		"rotation": {
+			"x": 123,
+			"y": 3,
+			"z": 61
+		},
+		"origin": {
+			"x": 2,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 2.41
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 3.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -0.23,
+			"y": 0.7,
+			"z": -0.2
+		},
+		"rotation": {
+			"x": 99,
+			"y": 156,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.5
+	}
+}

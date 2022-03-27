@@ -1,0 +1,200 @@
+{
+	"code": "miningexcavator",
+	"class": "ItemAOETool",
+	"damagedby": [
+		"blockbreaking",
+		"attacking"
+	],
+	"creativeinventory": {
+		"general": [
+			"*"
+		],
+		"items": [
+			"*"
+		],
+		"tools": [
+			"*"
+		]
+	},
+	"tool": "shovel",
+	"variantgroups": [
+		{
+			"code": "metal",
+			"states": [
+				"copper",
+				"tinbronze",
+				"bismuthbronze",
+				"blackbronze",
+				"iron",
+				"steel"
+			]
+		}
+	],
+	"attributes": {
+		"codePrefixes": [
+			"sand",
+			"gravel",
+			"drypackeddirt",
+			"bonysoil",
+			"rawclay",
+			"cob",
+			"farmland",
+			"forestfloor",
+			"muddygravel",
+			"packeddirt",
+			"peat",
+			"soil"
+		],
+		"handbook": {
+			"groupBy": [
+				"excavator-*"
+			]
+		}
+	},
+	"shape": {
+		"base": "item/tool/miningexcavator"
+	},
+	"heldTpHitAnimation": "shoveldig",
+	"textures": {
+		"wood": {
+			"base": "game:item/tool/material/wood"
+		},
+		"metal": {
+			"base": "game:block/metal/ingot/{metal}"
+		}
+	},
+	"miningspeedbytype": {
+		"*-copper": {
+			"soil": 2.4,
+			"sand": 2.4,
+			"gravel": 1.56,
+			"snow": 1.56
+		},
+		"*-tinbronze": {
+			"soil": 3.24,
+			"sand": 3.24,
+			"gravel": 2.16,
+			"snow": 2.16
+		},
+		"*-bismuthbronze": {
+			"soil": 3,
+			"sand": 3,
+			"gravel": 1.92,
+			"snow": 1.92
+		},
+		"*-blackbronze": {
+			"soil": 3.3,
+			"sand": 3.3,
+			"gravel": 2.22,
+			"snow": 2.22
+		},
+		"*-iron": {
+			"soil": 3.6,
+			"sand": 3.6,
+			"gravel": 2.4,
+			"snow": 2.4
+		},
+		"*-steel": {
+			"soil": 4.2,
+			"sand": 4.2,
+			"gravel": 2.64,
+			"snow": 2.64
+		}
+	},
+	"tooltierbytype": {
+		"*-copper": 2,
+		"*-tinbronze": 3,
+		"*-bismuthbronze": 3,
+		"*-blackbronze": 3,
+		"*-iron": 4,
+		"*-steel": 5
+	},
+	"durabilitybytype": {
+		"*-copper": 450,
+		"*-tinbronze": 650,
+		"*-bismuthbronze": 700,
+		"*-blackbronze": 700,
+		"*-iron": 1300,
+		"*-steel": 1700
+	},
+	"attackpowerbytype": {
+		"*-copper": 1.5,
+		"*-bismuthbronze": 1.75,
+		"*-tinbronze": 2,
+		"*-blackbronze": 2.25,
+		"*-iron": 2.5,
+		"*-steel": 2.75
+	},
+	"guiTransform": {
+		"translation": {
+			"x": -6,
+			"y": -7,
+			"z": 0
+		},
+		"rotation": {
+			"x": 60,
+			"y": 50,
+			"z": 44
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.78
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.2,
+			"y": -0.7,
+			"z": 1
+		},
+		"rotation": {
+			"x": 174,
+			"y": 0,
+			"z": 70
+		},
+		"origin": {
+			"x": 2,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 2.41
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 3.4
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.6,
+			"y": 0.5,
+			"z": -0.1
+		},
+		"rotation": {
+			"x": 78,
+			"y": 180,
+			"z": -10
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.5
+	}
+}

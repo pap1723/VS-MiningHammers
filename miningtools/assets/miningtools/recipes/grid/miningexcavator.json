@@ -1,0 +1,23 @@
+{
+	"ingredientPattern": "HSS",
+	"ingredients": {
+		"H": {
+			"type": "item",
+			"code": "miningexcavatorhead-*",
+			"name": "material"
+		},
+		"S": {
+			"type": "item",
+			"code": "game:stick",
+			"quantity": 1
+		}
+	},
+	"width": 1,
+	"height": 3,
+
+	"output": {
+		"type": "item",
+		"code": "miningexcavator-{material}",
+		"quantity": 1
+	}
+}

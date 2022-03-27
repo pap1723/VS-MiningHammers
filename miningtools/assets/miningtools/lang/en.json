@@ -1,0 +1,40 @@
+{
+	"item-miningexcavator-copper": "Copper Excavator",
+	"item-miningexcavator-tinbronze": "Tin Bronze Excavator",
+	"item-miningexcavator-bismuthbronze": "Bismuth Bronze Excavator",
+	"item-miningexcavator-blackbronze": "Black Bronze Excavator",
+	"item-miningexcavator-iron": "Iron Excavator",
+	"item-miningexcavator-steel": "Steel Excavator",
+	"itemdesc-miningexcavator-*": "Allows for digging in a 3x3 area with the same block breaking abilities of a shovel.",
+
+	"item-miningexcavatorhead-copper": "Copper Excavator Head",
+	"item-miningexcavatorhead-tinbronze": "Tin Bronze Excavator Head",
+	"item-miningexcavatorhead-bismuthbronze": "Bismuth Bronze Excavator Head",
+	"item-miningexcavatorhead-blackbronze": "Black Bronze Excavator Head",
+	"item-miningexcavatorhead-iron": "Iron Excavator Head",
+	"item-miningexcavatorhead-steel": "Steel Excavator Head",
+	"itemcraftdesc-miningexcavatorhead-*": "Used to create an Excavator. Requires 2 ingots.",
+	"itemdesc-miningexcavatorhead-*": "Used to create an Excavator. Requires 2 ingots.",
+
+	"item-mininghammer-copper": "Copper Mining Hammer",
+	"item-mininghammer-tinbronze": "Tin Bronze Mining Hammer",
+	"item-mininghammer-bismuthbronze": "Bismuth Bronze Mining Hammer",
+	"item-mininghammer-blackbronze": "Black Bronze Mining Hammer",
+	"item-mininghammer-iron": "Iron Mining Hammer",
+	"item-mininghammer-steel": "Steel Mining Hammer",
+	"itemdesc-mininghammer-*": "Allows for breaking stone blocks in a 3x3 area with the same block breaking abilities of a pickaxe.",
+
+	"item-mininghammerhead-copper": "Copper Mining Hammer Head",
+	"item-mininghammerhead-tinbronze": "Tin Bronze Mining Hammer Head",
+	"item-mininghammerhead-bismuthbronze": "Bismuth Bronze Mining Hammer Head",
+	"item-mininghammerhead-blackbronze": "Black Bronze Mining Hammer Head",
+	"item-mininghammerhead-iron": "Iron Mining Hammer Head",
+	"item-mininghammerhead-steel": "Steel Mining Hammer Head",
+	"itemcraftdesc-mininghammerhead-*": "Used to create a Mining Hammer. Requires 3 ingots (recommended to use 1 plate and 1 ingot).",
+	"itemdesc-mininghammerhead-*": "Used to create a Mining Hammer. Requires 3 ingots (recommended to use 1 plate and 1 ingot).",
+
+	"block-excavatormold-raw": "Raw Excavator Head Mold",
+	"block-excavatormold-burned": "Excavator Head Mold",
+	"block-mininghammermold-raw": "Raw Mining Hammer Head Mold",
+	"block-mininghammermold-burned": "Mining Hammer Head Mold"
+}

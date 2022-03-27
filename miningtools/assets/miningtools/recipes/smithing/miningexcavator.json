@@ -1,0 +1,43 @@
+{
+	"name": "Excavator",
+	"ingredient": {
+		"type": "item",
+		"code": "game:ingot-*",
+		"name": "metal",
+		"allowedVariants": [
+			"copper",
+			"tinbronze",
+			"bismuthbronze",
+			"blackbronze",
+			"iron"
+		]
+	},
+	"pattern": [
+		[
+			"_________",
+			"#######__",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"#########",
+			"#######__",
+			"_________"
+		],
+		[
+			"_________",
+			"_________",
+			"_______##",
+			"_____####",
+			"___######",
+			"_____####",
+			"_______##",
+			"_________",
+			"_________"
+		]
+	],
+	"output": {
+		"type": "item",
+		"code": "miningexcavatorhead-{metal}"
+	}
+}
